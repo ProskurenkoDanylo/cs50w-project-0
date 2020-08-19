@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
+
+html,body
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header
+{
+  background-color: #f1f1f1;
+}
+
+div
+{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+a
+{
+  text-decoration: none;
+  color: #0000EE;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, label
+{
+  font-family: 'Recursive', sans-serif;
+}
+
+
+.break
+{
+  flex-basis: 100%;
+  height: 0;
+}
+
+#logo
+{
+  padding-top: 10%;
+}
+
+#miniLogo
+{
+  margin: 0;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  padding: 0 20px 0 15px;
+}
+
+#miniLogo img
+{
+  height: 33px;
+}
+
+#search
+{
+  width: 40%;
+  text-align: center;
+}
+
+#advancedSearch
+{
+  margin: 0 40px 0 40px;
+  max-width: 50%;
+}
+
+#advancedSearch form
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#advancedSearch label
+{
+  width: 30%;
+}
+
+#advancedSearch input
+{
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  margin-bottom: 15px;
+  width: 50%;
+}
+
+#search input{
+  margin: 10px;
+}
+
+#search-text
+{
+  width: -webkit-fill-available;
+  border: 1px solid #dfe1e5;
+  background: url("../img/search.png") no-repeat 15px 50%;
+  background-size: 15px;
+  padding: 0 20px 0 40px;
+  outline: none;
+  height: 45px;
+  border-radius: 25px;
+  margin-top: 25px!important;
+  font-family: 'Recursive', sans-serif;
+  font-size: 16px;
+}
+
+#search-text:hover
+{
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+#advancedSubmit
+{
+  margin-top: 20px;
+  width: 120px!important;
+  box-shadow: none;
+  background-color: #4d90fe;
+  background-image: linear-gradient(top,#4d90fe,#4787ed);
+  border: 1px solid #3079ed;
+  color: #fff;
+  float: right;
+}
+
+#advancedSubmit:hover
+{
+  background-color: #357ae8;
+  background-image: -webkit-linear-gradient(top,#4d90fe,#357ae8);
+}
+
+#search input[type="submit"]
+{
+  height: 36px;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #5F6368;
+  padding: 0 15px;
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+}
+
+#search input[type="submit"]:hover
+{
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
